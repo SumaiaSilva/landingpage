@@ -1,0 +1,119 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, purple 16.62%, white 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 90px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.menu-item {
+    color: crimson;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    border-top: 0.4px solid plum;
+    margin-bottom: 48px; ;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.titulo {
+    font-weight: 400;
+    font-size: 60px;
+    color: rgb(50, 15, 85);
+}
+
+.subtitulo {
+    font-weight: 300;
+    font-size: 24px;
+    color: rgb(50, 15, 85);
+}
+
+.botao {
+    background-color: plum;
+    width: 160px;
+    height: 50px;
+    border: none;
+    box-shadow: 4px 5px 4px palevioletred;
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 17px;
+    color: crimson;
+}
+
+.botao:hover {
+    background-color: pink;
+}
+
+.imagem-principal {
+    height: 400px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.titulo-secundario {
+    border-top: 0.4px solid rgb(206, 72, 116);
+    padding-top: 48px;
+    font-weight: 400;
+    font-size: 24px;
+    color:crimson;
+    margin-bottom: 15px;
+}
+
+.conteudo-secundario-escrito {
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(42, 12, 73);
+}
+
+.rodape {
+   padding: 32px;
+   border-top: 0.4px solid palevioletred;
+}
+
+.imagem-rodape {
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+}
